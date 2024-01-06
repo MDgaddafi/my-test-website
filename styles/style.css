@@ -1,0 +1,72 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+}
+
+nav {
+    width: 50%;
+}
+
+.header {
+    background-color: red;
+    padding: 186px 230px 186px;
+    
+}
+
+.header-items {
+    align-items: left;
+}
+
+.h1-titel {
+    color: #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 525px;
+}
+
+.paragraf-comon {
+    color: #444343;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 494px;
+    margin-left: 25px;
+}
+
+button {
+    border-radius: 5px;
+    background: #F15B22;
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border: 0;
+    margin-left: 360px;
+
+}
+
+.btn-comon {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
