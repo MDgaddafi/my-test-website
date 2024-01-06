@@ -54,13 +54,7 @@ nav {
 button {
     border-radius: 5px;
     background: #F15B22;
-    width: 160px;
-    height: 64px;
-    flex-shrink: 0;
-    border: 0;
-    margin-left: 360px;
-    margin-top: 15px;
-
+    border: none;
 }
 
 .btn-comon {
@@ -71,6 +65,12 @@ button {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border: 0;
+    margin-left: 360px;
+    margin-top: 15px;
 
 }
 
@@ -192,4 +192,136 @@ section {
     margin-left: 0%;
     margin-bottom: -10px;
 
+}
+
+/* last section call to ation */
+#new-id {
+    width: 1140px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20%;
+}
+
+#new-id {
+    margin-bottom: 130px;
+}
+
+.last-title {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.call-to-btn {
+    color: #F15B22;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.last-title {
+    padding: 100px 0px 0px 65px;
+}
+
+#bbtn {
+    margin-left: 65px;
+}
+
+/* Footer style */
+
+footer {
+    display: flex;
+    background: #151414;
+    gap: 30px;
+}
+
+.footer {
+    margin: 130px 230px;
+}
+
+.h-title {
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p-peraggraf {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+    /* 162.5% */
+}
+
+a {
+    margin-right: 18px;
+}
+
+.h-title-line {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+input {
+
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 325px;
+    height: 64px;
+    padding-left: 20px;
+
+}
+
+input {
+    color: #FFF;
+    display: block;
+    background-color: #151414;
+}
+
+.btn-subscribe {
+    border: none;
+    width: 170.106px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.btn-subscribe{
+    margin-top: 16px;
 }
